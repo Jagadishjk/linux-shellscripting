@@ -7,14 +7,14 @@ then
 fi
 
 count_four=0
-for args in "$@"
+for arg in "$@"
 do
-    if [ ${#args} -gt 4 ]
+    if [ ${#arg} -gt 4 ]
     then
-        echo "${args^^}"
+        echo "${arg^^}"
         ((count-four++))
     else
-        echo "Skipping :: $args"
+        echo "Skipping :: $arg"
     fi
 done
 
