@@ -29,4 +29,4 @@ do
     ((count++))    
 done
 
-echo "list of arguments in string: $@"
+echo "list of arguments in string: $*"
